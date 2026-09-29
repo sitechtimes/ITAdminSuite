@@ -36,6 +36,9 @@
             vtsls
             prettier
             svelte-language-server
+            vscode-html-languageserver
+            vscode-css-languageserver
+            tailwindcss-language-server
             tree-sitter
             self.formatter.${system}
           ];
