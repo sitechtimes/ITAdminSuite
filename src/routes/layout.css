@@ -1,5 +1,47 @@
 @import 'tailwindcss';
 
 @theme {
-	--color-primary: var(--color-zinc-900);
+	/* The primary brand font family. */
+	--font-primary: 'Instrument Serif', ui-serif, Georgia, serif;
+
+	/* The colors for borders and dividers. */
+	--color-line: var(--color-taupe-700);
+
+	/* The primary brand colors. */
+	--color-primary: var(--color-taupe-600);
+	--color-primary-hover: var(--color-taupe-500);
+	--color-primary-ink: var(--color-taupe-300);
+	--color-primary-muted: var(--color-taupe-400);
+	--color-primary-surface: var(--color-taupe-900);
+	--color-primary-surface-raised: var(--color-taupe-800);
+
+	/* The secondary brand colors. */
+	--color-secondary: var(--color-olive-600);
+	--color-secondary-hover: var(--color-olive-500);
+	--color-secondary-ink: var(--color-olive-300);
+	--color-secondary-muted: var(--color-olive-400);
+	--color-secondary-surface: var(--color-olive-900);
+	--color-secondary-surface-raised: var(--color-olive-800);
+
+	/* The accent brand colors. */
+	--color-accent: var(--color-mauve-600);
+	--color-accent-hover: var(--color-mauve-500);
+	--color-accent-ink: var(--color-mauve-300);
+	--color-accent-muted: var(--color-mauve-400);
+	--color-accent-surface: var(--color-mauve-900);
+	--color-accent-surface-raised: var(--color-mauve-800);
+
+	/* The neutral brand colors. */
+	--color-neutral: var(--color-zinc-600);
+	--color-neutral-hover: var(--color-zinc-300);
+	--color-neutral-ink: var(--color-zinc-300);
+	--color-neutral-muted: var(--color-zinc-400);
+	--color-neutral-surface: var(--color-zinc-900);
+	--color-neutral-surface-raised: var(--color-zinc-800);
+}
+
+@layer base {
+	html {
+		font-family: var(--font-primary);
+	}
 }
