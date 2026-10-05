@@ -15,6 +15,8 @@
 	};
 </script>
 
-<button class="hover:cursor-pointer px-6 py-2 rounded-lg text-{size} {colors[color]}">
-	{label}
-</button>
+<a href="/random"
+	><button class="rounded-lg px-6 py-2 hover:cursor-pointer text-{size} {colors[color]}">
+		{label}
+	</button></a
+>
