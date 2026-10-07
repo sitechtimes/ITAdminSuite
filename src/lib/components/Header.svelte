@@ -24,6 +24,6 @@
 	};
 </script>
 
-<svelte:element this={`h${level}`} class="{sizes[level]} {colors[color]} font-bold">
+<svelte:element this={`h${level}`} class="{sizes[level]} {colors[color]} font-bold text-center">
 	{label}
 </svelte:element>

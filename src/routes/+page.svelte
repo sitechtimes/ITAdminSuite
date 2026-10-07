@@ -6,7 +6,10 @@
 
 <SidebarView>
 	{#snippet sidebar()}
-		Random Text
+		<Header label="SITHS Print Server" level={3} color="primary"></Header>
+		<Button label="?" size="xl" color="primary"></Button>
+		<Button label="?" size="xl" color="primary"></Button>
+		<Button label="?" size="xl" color="primary"></Button>
 	{/snippet}
 	{#snippet content()}
 		Random Text
